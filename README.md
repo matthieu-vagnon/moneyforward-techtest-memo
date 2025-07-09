@@ -46,8 +46,8 @@ _A simple memo web application made with React for Money Forward's technical tes
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/matthieu-vagnon/matthieu-vagnon-web.git
-   cd matthieu-vagnon-web
+   git clone https://github.com/matthieu-vagnon/moneyforward-techtest-memo.git
+   cd moneyforward-techtest-memo
    ```
 
 2. Install dependencies
@@ -59,9 +59,7 @@ _A simple memo web application made with React for Money Forward's technical tes
    ```
 
 3. Configure environment variables
-   ```bash
-   cp .env.example .env.local
-   ```
+
    Edit the `.env` file to configure your environment variables.
 
 ### Run the App
