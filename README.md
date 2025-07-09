@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+- [Matthieu Vagnon Web - Personal Website](#matthieu-vagnon-web---personal-website)
+  - [💻 Gallery](#-gallery)
+  - [🚀 Features](#-features)
+  - [🛠️ Installation](#️-installation)
+    - [Prerequisites](#prerequisites)
+    - [Set Up Local Repository](#set-up-local-repository)
+    - [Run the App](#run-the-app)
+  - [🔧 Available Scripts](#-available-scripts)
+  - [📦 Project Structure](#-project-structure)
+  - [🎨 Styling](#-styling)
+  - [👨‍💻 Author](#-author)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Matthieu Vagnon Web - Personal Website
 
-## Available Scripts
+![Version](https://img.shields.io/badge/version-0.0.0-blue)
+![React](https://img.shields.io/badge/React-19.1.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 
-In the project directory, you can run:
+A simple memo web application made with React for Money Forward's technical test (senior front-end engineer role).
 
-### `npm start`
+## 💻 Gallery
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Further explaination of the project as well as images from the software are available [here](https://www.mvagnon.dev/case-studies/money-forward-challenge).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- **Memo** - Ability to create, delete, edit memos in an auto generated session
+- **Accessibility** - Accessible application for mobile, tablet and desktop
+- **Performance** - Optimized API fetching with React Query (using full potential of cache and refresh management)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Installation
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js 18.x or higher
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Set Up Local Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/matthieu-vagnon/matthieu-vagnon-web.git
+   cd matthieu-vagnon-web
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Configure environment variables
+   ```bash
+   cp .env.example .env.local
+   ```
+   Edit the `.env` file to configure your environment variables.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Run the App
 
-## Learn More
+Run the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+# or
+yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-### Code Splitting
+## 🔧 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `npm run start` - Starts the application's local server
+- `npm run build` - Builds the application for production
+- `npm run lint` - Runs ESLint to check code quality
 
-### Analyzing the Bundle Size
+## 📦 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This is a [React.js](https://react.dev) project bootstrapped with [`create-react-app`](https://create-react-app.dev).
 
-### Making a Progressive Web App
+## 🎨 Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Material UI](https://mui.com/material-ui/) for UI components as well as theming (with Emotion)
 
-### Advanced Configuration
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Matthieu Vagnon](https://mvagnon.dev)
