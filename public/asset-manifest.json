@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/style.css",
+    "main.js": "/index.js",
+    "index.html": "/index.html",
+    "style.css.map": "/style.css.map",
+    "index.js.map": "/index.js.map"
+  },
+  "entrypoints": [
+    "style.css",
+    "index.js"
+  ]
+}
