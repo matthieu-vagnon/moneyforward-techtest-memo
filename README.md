@@ -1,34 +1,40 @@
-- [Matthieu Vagnon Web - Personal Website](#matthieu-vagnon-web---personal-website)
-  - [💻 Gallery](#-gallery)
-  - [🚀 Features](#-features)
-  - [🛠️ Installation](#️-installation)
+- [Money Forward Technical Test - Memo](#money-forward-technical-test---memo)
+  - [Type of Project](#type-of-project)
+  - [Features](#features)
+  - [Dependencies](#dependencies)
+  - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Set Up Local Repository](#set-up-local-repository)
     - [Run the App](#run-the-app)
-  - [🔧 Available Scripts](#-available-scripts)
-  - [📦 Project Structure](#-project-structure)
-  - [🎨 Styling](#-styling)
-  - [👨‍💻 Author](#-author)
+  - [Available Scripts](#available-scripts)
+  - [Author](#author)
 
-# Matthieu Vagnon Web - Personal Website
+# Money Forward Technical Test - Memo
 
 ![Version](https://img.shields.io/badge/version-0.0.0-blue)
 ![React](https://img.shields.io/badge/React-19.1.0-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 
-A simple memo web application made with React for Money Forward's technical test (senior front-end engineer role).
+_A simple memo web application made with React for Money Forward's technical test (senior front-end engineer role)._
 
-## 💻 Gallery
+## Type of Project
 
-Further explaination of the project as well as images from the software are available [here](https://www.mvagnon.dev/case-studies/money-forward-challenge).
+- [ ] Freelance project
+- [x] Hobby project
+- [ ] Other project
 
-## 🚀 Features
+## Features
 
 - **Memo** - Ability to create, delete, edit memos in an auto generated session
 - **Accessibility** - Accessible application for mobile, tablet and desktop
 - **Performance** - Optimized API fetching with React Query (using full potential of cache and refresh management)
 
-## 🛠️ Installation
+## Dependencies
+
+- [Material UI](https://mui.com/material-ui/) for UI components as well as theming (with Emotion)
+- [TanStack Query](https://tanstack.com/query/) for optimized API fetching
+- [ESLint](https://eslint.org) for code linting
+
+## Installation
 
 ### Prerequisites
 
@@ -70,20 +76,12 @@ yarn start
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## 🔧 Available Scripts
+## Available Scripts
 
 - `npm run start` - Starts the application's local server
 - `npm run build` - Builds the application for production
 - `npm run lint` - Runs ESLint to check code quality
 
-## 📦 Project Structure
-
-This is a [React.js](https://react.dev) project bootstrapped with [`create-react-app`](https://create-react-app.dev).
-
-## 🎨 Styling
-
-- [Material UI](https://mui.com/material-ui/) for UI components as well as theming (with Emotion)
-
-## 👨‍💻 Author
+## Author
 
 - [Matthieu Vagnon](https://mvagnon.dev)
